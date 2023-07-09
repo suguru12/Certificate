@@ -1,0 +1,38 @@
+.top-bar {
+    background-color: #861b47;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .top-bar-left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .top-bar-right a {
+    color: #fff;
+    margin-left: 10px;
+    font-size: 1.4rem;
+    transition: color 0.3s;
+    margin:20px;
+  }
+  
+  .top-bar-right a:hover {
+    color: #fbbf20;
+    
+  }
+  
+  .mobile-number {
+    display: flex;
+    align-items: center;
+  }
+  
+  .mobile-number svg {
+    margin-right: 5px;
+  }
+  .mobilenumber :hover{
+    color: #fbbf20;
+  }
